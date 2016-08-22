@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+/*------------------------------------------
+	Typography
+------------------------------------------*/
+
+html{
+	font-family: 'Gudea', sans-serif;
+	font-size: 62.5%;
+	line-height: 1.375;
+}
+
+h1, h2, h3, h4, h5, h6{ margin: 0; }
+
+h1{ font-size: 4.8rem; }
+
+h2{ font-size: 4rem; }
+
+h3{ font-size: 3.4rem; }
+
+h4{ font-size: 3rem; }
+
+h5{ font-size: 2.6rem; }
+
+p, li{
+	margin: 0.5em 0;
+	font-size: 1.6rem;
+}
+
+code{
+	display: block;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1.4rem;
+	line-height: 1.2;
+	white-space: pre-line;
+}
+
+code > code{
+	margin-left: 21px;
+}
+
+.codeblock{
+	padding: 1rem;
+	background-color: #E9EFF2;
+}
+
+samp{
+	font: inherit;
+	color: #EA3556;
+}
+
+/*------------------------------------------
+	Grid
+------------------------------------------*/
+
+section{
+	display: block;
+	font-size: 0;
+}
+
+section.padded{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.col{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+section > .col{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.half.col{ width: 48%; }
+
+.third.col{ width: 31.333%; }
+
+.fourth.col{ width: 23%; }
+
+.fifth.col{ width: 18%; }
+
+.sixth.col{ width: 16.666%; }
+
+.eighth.col{ width: 12.5%; }
+
+.tenth.col{ width: 10%; }
+
+.twelfth.col{ width: 8.333%; }
+
+@media screen and (max-width: 1024px){
+	.md-half.col{ width: 48%; }
+	.md-third.col{ width: 31.333%; }
+	.md-fourth.col{ width: 23%; }
+	.md-fifth.col{ width: 18%; }
+	.md-sixth.col{ width: 16.666%; }
+	.md-eighth.col{ width: 12.5%; }
+	.md-tenth.col{ width: 10%; }
+	.md-twelfth.col{ width: 8.333%; }
+}
+
+@media screen and (max-width: 480px){
+	.sm-half.col{ width: 48%; }
+	.sm-third.col{ width: 32%; }
+	.sm-fourth.col{ width: 23.5%; }
+	.sm-fifth.col{ width: 18.4%; }
+	.sm-sixth.col{ width: 15; }
+	.sm-eighth.col{ width: 10.75%; }
+	.sm-tenth.col{ width: 8.2%; }
+	.sm-twelfth.col{ width: 6.5%; }
+}
