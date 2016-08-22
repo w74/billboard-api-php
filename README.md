@@ -1,7 +1,9 @@
 # Unofficial Billboard API
+See a more detailed API reference at [billboard.modulo.site](http://billboard.modulo.site)
+
 ## Index
 1. API Endpoint Reference
-    1. Get both Album/Song Rankings of a particular week
+    1. Get Album/Song Rankings of a particular week
     2. Rankings
         * Get Ranking history for Albums
         * Get Ranking history for Songs
@@ -29,7 +31,7 @@ max     | Upper bound (inclusive) for Ranking   | Albums: <= 200
                                                 | Songs: <= 100
 pithy   | Depth of detail provided.
           1: only return Album or Song IDs
-          0: return all Album or Song info  | Default: False
+          0: return all Album or Song info      | Default: 0
 ```
 ---
 ### Get Ranking History for Albums
@@ -75,7 +77,7 @@ to      | Specify Date to stop search           | N/A
 filter  | Only show either Albums or Songs      | 'album' or 'song'
 pithy   | Depth of detail provided.
           1: only return Album or Song IDs
-          0: return all Album or Song info  | Default: False
+          0: return all Album or Song info      | Default: 0
 ```
 ---
 ### Get Album History
@@ -114,7 +116,7 @@ max     | Only show weeks where album/song was
 ##### Endpoint:
 `GET http://billboard.modulo.site/search/{category}?q=...`
 ##### Request Parameters:
-**category:** either 'album', 'song', or 'artist' to search only for Albums, Songs, or Artists, respectively.
+**category:** either `album`, `song`, or `artist` to search only for Albums, Songs, or Artists, respectively.
 ##### Required Query Parameters:
 ```
 Param   | Value
@@ -124,7 +126,7 @@ q       | Term to search for (case insensitive unless exact is true)
 ```
 Param   | Value                                 | Range/Default'
 exact   | 1: only return exact matches
-          0: return all similar matches         | Default: False
+          0: return all similar matches         | Default: 0
 ```
 
 
