@@ -3,7 +3,7 @@ See a more detailed API reference at [billboard.modulo.site](http://billboard.mo
 
 ## Index
 1. API Endpoint Reference
-    1. Get Album/Song Rankings of a particular week
+    1. Get Album/Song Rankings
     2. Rankings
         * Get Ranking history for Albums
         * Get Ranking history for Songs
@@ -11,8 +11,7 @@ See a more detailed API reference at [billboard.modulo.site](http://billboard.mo
         * Get historical Album & Song Rankings associated with an Artist
         * Get historical information on a single Album
         * Get historical information on a single Song
-    4. Search
-        * Search Database for term
+    4. Search Database for term
 2. About
 3. Legalities
 

@@ -182,7 +182,7 @@ class ApiController extends Controller
 		if(isset($req['exact']) && $req['exact']){
 			$query_term = $req['q'];
 		} else {
-			$query_term = "%{$req['q']}%";
+			$query_term = "%" . trim($req['q']) . "%";
 		}
 
 		$res = DB::table("{$table}")
