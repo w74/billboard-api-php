@@ -15,11 +15,11 @@
     <h1 class="grid-100">(Unofficial) Billboard API</h1>
     <h3 class="grid-100">Endpoints Reference</h3>
     <ul class="grid-100">
-      <li><a href="">Album or Song Rankings for a particular week</a></li>
-      <li><a href="">Albums or Songs at a particular ranking during a period of time</a></li>
-      <li><a href="">Album &amp; Song Rankings associated with an Artist</a></li>
-      <li><a href="">Historical information on a single Album or Song</a></li>
-      <li><a href="">Search Database for an Artist, Album or Song</a></li>
+      <li>Album or Song Rankings for a particular week</li>
+      <li>Albums or Songs at a particular ranking during a period of time</li>
+      <li>Album &amp; Song Rankings associated with an Artist</li>
+      <li>Historical information on a single Album or Song</li>
+      <li>Search Database for an Artist, Album or Song</li>
     </ul>
   </section>
 
